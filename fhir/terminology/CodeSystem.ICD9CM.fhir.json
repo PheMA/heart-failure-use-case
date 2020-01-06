@@ -1,0 +1,18 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ICD9CM",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>International Classification of Diseases, Ninth Revision, Clinical Modification</h2><p>This code system http://hl7.org/fhir/sid/icd-9-cm defines the following codes:</p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Definition</b></td></tr></table></div>"
+  },
+  "url": "http://hl7.org/fhir/sid/icd-9-cm",
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.6.103, 2.16.840.1.113883.6.104"
+  },
+  "version": "2013",
+  "name": "ICD9CM",
+  "title": "International Classification of Diseases, Ninth Revision, Clinical Modification",
+  "date": "2012-10-01T00:00:00-04:00",
+  "content": "complete"
+}

@@ -8,8 +8,9 @@ running on top of the OMOP database in the [synpuf](../synpuf) directory. The
 resources are in JSON format and conform to FHIR version
 [STU3](http://hl7.org/fhir/STU3/valueset.html).
 
-The [valuesets](valuesets) directory contains two `ValueSet` resources
-representing the value sets used in the heart failure phenotype.
+The [terminology](terminology) directory contains two `CodeSystem` and
+`ValueSet` resources representing the value sets used in the heart failure
+phenotype.
 
 ### Dataset Summary
 

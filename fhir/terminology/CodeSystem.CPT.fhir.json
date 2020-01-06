@@ -1,0 +1,18 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CPT",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Current Procedural Terminologys</h2><p>This code system http://www.ama-assn.org/go/cpt defines the following codes:</p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Definition</b></td></tr></table></div>"
+  },
+  "url": "http://www.ama-assn.org/go/cpt",
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.6.12"
+  },
+  "version": "2020",
+  "name": "CPT",
+  "title": "Current Procedural Terminologys",
+  "date": "2019-09-27T00:00:00-04:00",
+  "content": "complete"
+}

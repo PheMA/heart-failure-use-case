@@ -1,0 +1,18 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ICD10CM",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>International Classification of Diseases, 10th Edition, Clinical Modification</h2><p>This code system http://hl7.org/fhir/sid/icd-10-cm defines the following codes:</p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Definition</b></td></tr></table></div>"
+  },
+  "url": "http://hl7.org/fhir/sid/icd-10-cm",
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.6.90"
+  },
+  "version": "2020",
+  "name": "ICD10CM",
+  "title": "International Classification of Diseases, 10th Edition, Clinical Modification",
+  "date": "2019-06-25T00:00:00-04:00",
+  "content": "complete"
+}
