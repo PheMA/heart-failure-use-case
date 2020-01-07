@@ -4,7 +4,7 @@ using QUICK
 
 codesystem "ActCodes": 'http://hl7.org/fhir/v3/ActCode'
 
-valueset "Echo VS": '2.16.840.1.999999.1'
+valueset "Echo VS": '2.16.840.1.113883.3.1427.10000.bb471b83e02a414a926bd20b54ba62c2'
 valueset "HF Dx VS": '2.16.840.1.113883.3.526.3.376'
 
 code "Inpatient Encounter": 'IMP' from "ActCodes"
@@ -35,5 +35,5 @@ define "Encounter Criteria":
     exists("Inpatient Encounters With HF Dx") or
     Count("Outpatient Encounters With HF Dx") >= 2
 
-define "Case":
+define "Heart Failure Cases":
     "Adult" and "Has Echo" and "Encounter Criteria"
