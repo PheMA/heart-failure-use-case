@@ -101,3 +101,20 @@ $ curl http://local.psbrandt.io:9876/hapi-fhir-jpaserver/fhir/Procedure\?_summar
   "total": 137522
 }
 ```
+
+### Data Submission
+
+Terminologies can be individually submitted as follows:
+
+```sh
+curl -X PUT -d "@CodeSystem.ActCode.fhir.json" -H "Content-Type: application/json" http://localhost:8080/hapi-fhir-jpaserver/fhir/CodeSystem/ActCode
+curl -X PUT -d "@CodeSystem.CPT.fhir.json" -H "Content-Type: application/json" http://localhost:8080/hapi-fhir-jpaserver/fhir/CodeSystem/CPT
+curl -X PUT -d "@CodeSystem.ICD10CM.fhir.json" -H "Content-Type: application/json" http://localhost:8080/hapi-fhir-jpaserver/fhir/CodeSystem/ICD10CM
+curl -X PUT -d "@CodeSystem.ICD9CM.fhir.json" -H "Content-Type: application/json" http://localhost:8080/hapi-fhir-jpaserver/fhir/CodeSystem/ICD9CM
+curl -X PUT -d "@CodeSystem.SNOMEDCT.fhir.json" -H "Content-Type: application/json" http://localhost:8080/hapi-fhir-jpaserver/fhir/CodeSystem/SNOMEDCT
+curl -X PUT -d "@ValueSet.2.16.840.1.113883.3.526.3.376.fhir.json" -H "Content-Type: application/json" http://localhost:8080/hapi-fhir-jpaserver/fhir/ValueSet/2.16.840.1.113883.3.526.3.376
+curl -X PUT -d "@ValueSet.2.16.840.1.999999.1.fhir.json" -H "Content-Type: application/json" http://localhost:8080/hapi-fhir-jpaserver/fhir/ValueSet/2.16.840.1.999999.1
+curl -X PUT -d "@ValueSet.v3-ActEncounterCode.fhir.json" -H "Content-Type: application/json" http://localhost:8080/hapi-fhir-jpaserver/fhir/ValueSet/v3-ActEncounterCode
+```
+
+FHIR bundles can be submitted using the [omoponfhir-extractor](https://github.com/PheMA/omoponfhir-extractor) tool.

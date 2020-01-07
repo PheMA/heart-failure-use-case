@@ -4,7 +4,7 @@
   "name": "Echocardiography CPT Codes",
   "publisher": "PhEMA",
   "status": "active",
-  "url": "https://r3.smarthealthit.org/ValueSet/2.16.840.1.999999.1",
+  "url": "http://fhir.phema.science/ValueSet/2.16.840.1.999999.1",
   "compose": {
     "lockedDate": "2020-01-06",
     "inactive": false,
