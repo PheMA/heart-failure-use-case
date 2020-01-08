@@ -1,3 +1,7 @@
 .DS_Store
 *.jar
 *.log
+
+# Ignore folders specific to reviewing sites.  That's where
+# local/sensitive information would be kept
+northwestern/
