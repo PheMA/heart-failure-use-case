@@ -8,7 +8,7 @@ value_set_oid,value_set_name,code,description,code_system,code_system_version,co
 2.16.840.1.113883.3.526.3.376,Heart Failure,404.13,"Hypertensive heart and chronic kidney disease, benign, with heart failure and chronic kidney disease stage V or end stage renal disease",ICD9CM,2013,2.16.840.1.113883.6.103,PT
 2.16.840.1.113883.3.526.3.376,Heart Failure,404.91,"Hypertensive heart and chronic kidney disease, unspecified, with heart failure and with chronic kidney disease stage I through stage IV, or unspecified",ICD9CM,2013,2.16.840.1.113883.6.103,PT
 2.16.840.1.113883.3.526.3.376,Heart Failure,404.93,"Hypertensive heart and chronic kidney disease, unspecified, with heart failure and chronic kidney disease stage V or end stage renal disease",ICD9CM,2013,2.16.840.1.113883.6.103,PT
-2.16.840.1.113883.3.526.3.376,Heart Failure,428,"Congestive heart failure, unspecified",ICD9CM,2013,2.16.840.1.113883.6.103,PT
+2.16.840.1.113883.3.526.3.376,Heart Failure,428.0,"Congestive heart failure, unspecified",ICD9CM,2013,2.16.840.1.113883.6.103,PT
 2.16.840.1.113883.3.526.3.376,Heart Failure,428.1,Left heart failure,ICD9CM,2013,2.16.840.1.113883.6.103,PT
 2.16.840.1.113883.3.526.3.376,Heart Failure,428.2,"Systolic heart failure, unspecified",ICD9CM,2013,2.16.840.1.113883.6.103,PT
 2.16.840.1.113883.3.526.3.376,Heart Failure,428.21,Acute systolic heart failure,ICD9CM,2013,2.16.840.1.113883.6.103,PT
