@@ -1,0 +1,22 @@
+strict digraph {
+    age [shape="diamond" label="Patient at least\n18 years old" ];
+    echo [shape="diamond" label="Patients has\nechocardiogram"];
+    
+    inpatient [shape="diamond" label="One inpatient Encounter\n with HF Dx"];
+    outpatient [shape="diamond" label="Two or more\n outpatient Encounters\n with HF Dx"];
+    
+    exclude [shape="rectangle" label="Exclude"];
+    include [shape="rectangle" label="Include"];
+
+    age -> echo [label = "Yes"];
+    age -> exclude [label = "No"];
+    echo -> exclude [label = "No"];
+    
+    echo -> inpatient [label = "Yes"];
+    inpatient -> include [label = "Yes"];
+    
+    inpatient -> outpatient [label ="No"];
+    outpatient -> include [label = "Yes"];
+    
+    outpatient -> exclude [label = "No"];
+}

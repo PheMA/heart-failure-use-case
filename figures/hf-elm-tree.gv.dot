@@ -1,0 +1,48 @@
+strict graph G {
+  case [ label="HF Case" shape="rectangle" ];
+  top_and [ label="And" ];
+  left_and [ label="And" ];
+  ge [ label="GreaterOrEqual" ];
+  ge2 [ label="GreaterOrEqual" ];
+  two [label ="2"];
+  age [ label="CalculateAge" ];
+  eighteen [ label="18" ];
+  echo[ label="Echo Procedure" ];
+  or [ label="Or" ];
+  exists [ label="Exists" ];
+  exists2 [ label="Exists" ];
+  count [ label="Count" ];
+  outpatient [ label="Inpatient Encounter" ];
+  inpatient [ label="Inpatient Encounter" ];
+
+  left_with [ label = "QueryWith" ];
+  right_with [ label = "QueryWith" ];
+
+  left_dx [ label = "HF Dx" ];
+  right_dx [ label = "HF Dx" ];
+  
+  case -- top_and;
+  top_and -- left_and;
+
+  left_and -- ge;
+  left_and -- exists2;
+  exists2 -- echo;
+
+  ge -- age;
+  ge -- eighteen
+  
+  top_and -- or;
+  or -- exists;
+  exists -- right_with;
+
+  right_with -- inpatient;
+  right_with -- right_dx;
+
+  or -- ge2;
+  ge2 -- count;
+  ge2 -- two;
+
+  count -- left_with;
+  left_with -- outpatient;
+  left_with -- left_dx;
+}
